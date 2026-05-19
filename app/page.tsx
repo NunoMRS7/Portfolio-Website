@@ -9,7 +9,7 @@ export default function Page() {
     <div className="flex flex-col items-center">
 
         {/* HOME PAGE */}
-        <section id="home" className="overflow-hidden px-18 pb-38 md:pt-20 lg:pt-38 w-[100vw] flex items-center justify-center bg-neutral-50">
+        <section id="home" className="overflow-hidden px-18 pb-38 md:pt-20 lg:pt-38 w-full flex items-center justify-center bg-neutral-50">
             <div className="flex flex-col lg:flex-row justify-between w-[1100px] mt-10 items-center">
                 <div className="items-center flex flex-col w-fit">
                     <div className="flex flex-col items-center mb-10">
@@ -51,12 +51,12 @@ export default function Page() {
         </section>
 
         {/* ABOUT PAGE */}
-        <section id="about" className="overflow-hidden px-18 w-[100vw] bg-neutral-500">
+        <section id="about" className="overflow-hidden px-18 w-full bg-neutral-500">
             <p className="py-90">ABOUT PAGE</p>
         </section>
 
         {/* PROJECTS PAGE */}
-        <section id="projects" className="px-18 w-[100vw] bg-neutral-200 flex flex-col items-center">
+        <section id="projects" className="px-18 w-full bg-neutral-200 flex flex-col items-center">
             <p className="text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mt-30 mb-20">Projects</p>
             <div>
                 <ProjectCard imageOnLeft={false} className="mb-20"/>
@@ -67,7 +67,7 @@ export default function Page() {
         </section>
 
         {/* CONTACT PAGE */}
-        <section id="contact" className="overflow-hidden px-18 w-[100vw] bg-neutral-500">
+        <section id="contact" className="overflow-hidden px-18 w-full bg-neutral-500">
             <p className="py-90">CONTACT PAGE</p>
         </section>
 
